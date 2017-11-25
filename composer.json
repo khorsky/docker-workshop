@@ -1,7 +1,13 @@
 {
-    "name": "khorsky/docker-workshop",
-    "type": "project",
-    "require": {
-        "phpunit/phpunit": "^6.4"
-    }
+	"name": "khorsky/docker-workshop",
+	"type": "project",
+	"require": {
+		"phpunit/phpunit": "^6.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"PosledniSobota\\": "src/",
+			"PosledniSobota\\Tests\\": "tests/"
+		}
+	}
 }
