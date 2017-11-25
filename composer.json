@@ -1,5 +1,7 @@
 {
     "name": "khorsky/docker-workshop",
     "type": "project",
-    "require": {}
+    "require": {
+        "phpunit/phpunit": "^6.4"
+    }
 }
